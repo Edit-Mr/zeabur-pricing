@@ -112,14 +112,14 @@
     <main>
       <div>
         <label for="cpu">CPU 用量 (vCPU)</label>
-        <input type="number" id="cpu" placeholder="輸入 vCPU 用量" value="1" />
+        <input type="number" id="cpu" placeholder="輸入 vCPU 用量" value="0" />
 
         <label for="memory">記憶體 用量 (GB)</label>
         <input
           type="number"
           id="memory"
           placeholder="輸入記憶體用量 (GB)"
-          value="12"
+          value=".01"
         />
 
         <label for="bandwidth">出口流量 用量 (GB)</label>
@@ -127,7 +127,7 @@
           type="number"
           id="bandwidth"
           placeholder="輸入出口流量 (GB)"
-          value="1"
+          value=".1"
         />
 
         <label for="storage">持久儲存空間 (GB/月)</label>
@@ -135,7 +135,7 @@
           type="number"
           id="storage"
           placeholder="輸入儲存空間 (GB)"
-          value="0.5"
+          value="0.05"
         />
         <select id="unit">
           <option value="1">美元 (USD)</option>
